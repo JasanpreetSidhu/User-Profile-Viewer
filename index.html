@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="spinner.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Random User Generator</title>
+  </head>
+  <body class="text-white overflow-x-hidden">
+    <div
+      class="bg-black relative min-w-52 w-4/5 m-2 mt-12 border border-white rounded-lg p-4 mx-auto"
+      id="user-card"
+    >
+      <div class="text-center">
+        <h1 class="text-2xl">User Profile Viewer</h1>
+        <button
+          id="generate"
+          class="relative text-white px-4 py-2 rounded w-full my-4"
+          style="background-color: orange"
+        >
+          <div class="spinner hidden"></div>
+          View Next User
+        </button>
+      </div>
+
+      <div id="user" class="mt-6 min-w-52 w-4/5"></div>
+    </div>
+
+    <script src="./myScript.js"></script>
+  </body>
+</html>

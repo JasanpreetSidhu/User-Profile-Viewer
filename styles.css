@@ -1,0 +1,26 @@
+body {
+  background-color: lightskyblue;
+}
+
+#user {
+  display: flex;
+  justify-items: center;
+}
+
+#textDiv {
+  padding-top: 1rem;
+}
+
+#user img {
+  margin-right: 2em;
+  border-radius: 50%;
+  min-width: 40%;
+}
+
+.bg-blue {
+  background-color: mediumseagreen;
+}
+
+.bg-pink {
+  background-color: palevioletred;
+}
