@@ -1,6 +1,6 @@
 # User Profile Viewer
 
-This application displays user profiles by fetching data from an [API](https://randomuser.me) and presenting it in a user-friendly format.
+This [application](https://jasanpreetsidhu.github.io/User-Profile-Viewer/) displays user profiles by fetching data from an [API](https://randomuser.me) and presenting it in a user-friendly format.
 
 ## Key Features
 
