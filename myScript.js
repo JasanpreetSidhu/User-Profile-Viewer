@@ -17,7 +17,7 @@ function fetchAndDisplayUser() {
     .then((response) =>
       response.ok
         ? response.json() // parsing JSON data to JS object
-        : new Promise((res, rej) => rej(new Error(`${response.status}`)))
+        : new Promise((res, rej) => rej(new Error(`${response.statusText}`)))
     )
     .then((data) => displayUser(data.results[0]))
     .catch((error) => alert(error))
